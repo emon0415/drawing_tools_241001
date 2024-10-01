@@ -81,7 +81,13 @@ export default function Home() {
       <h1 className="text-4xl font-bold mb-8 text-center text-blue-600">
         画像アップロードと塗り絵
       </h1>
-      
+    
+      <h2>操作方法</h2>
+      <h3>①画像ファイルを読み込み</h3>
+      <h3>②線画ボタンを押し、塗り絵使用（線画）に変換</h3>
+      <h3>③塗り絵を実行のボタンを押し、AI塗り絵（彩色）を実行</h3>
+      <h3> ※画像のダウンロードも可能</h3>
+    
       <div className="bg-white p-6 rounded-lg shadow-md">
         <input 
           type="file" 
