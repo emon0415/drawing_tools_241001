@@ -34,7 +34,7 @@ export default function Home() {
 
     setIsLoading(true);
     try {
-      const response = await fetch('https://drawing-tools-241001-backend-v2.onrender.com/upload', {
+      const response = await fetch('https://drawing-tools-241001-backend-v2.onrender.com/uploads', {
         method: 'POST',
         headers: { 
           'Content-Type': 'application/json',
